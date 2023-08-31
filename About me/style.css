@@ -1,0 +1,623 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Righteous&family=Shadows+Into+Light&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+}
+:root{
+    --main-color: rgba(125, 196, 78, 0.733);
+    --body-color:#23242b;
+    --container-color:#d7e41f8f;
+    --color:#455a31;
+    --bg-color:#fff;
+    --bg-colors:#000;
+}
+
+body{
+    background-color: rgba(49, 48, 48, 0.568);
+    color: var(--bg-color);
+}
+.nav-link{
+    font-size:1.2rem ;
+    padding: 4px;
+    border-radius: 0.2rem ;
+    color: var(--bg-color);
+}
+ .nav-link:hover{
+    translate: 0.3s all linear;
+    background-color: rgba(153, 152, 148, 0);
+    color: yellow;
+}
+
+.section{
+    padding: 3rem 0 2rem;
+}
+  .section {
+   min-height: 600px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   padding-top: 7rem;
+}  
+.home-content{
+    position: relative;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section .home-content .box .row .col-12 img {
+    width: 280px;
+    height: 300px;
+    border-radius: 50%;
+    background: #98a7fc;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+.section .home-content .box .row .col-12 img {
+    width: 280px;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.section .box .row .dog h4{
+    font-size: 30px;
+    font-family:family=Lilita ;
+    color: rgba(238, 255, 0, 0.808);
+}
+
+.section .box .row .dog span{
+    font-family:family=Lilita ;
+    color: gold;
+}
+
+.section .box .row .dog h1{
+    font-size: 50px;
+    font-family:family=Lilita ;
+}
+
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.1rem;
+}
+.icon .bx {
+    font-size: 1.3rem;
+    padding: 10px;
+    border-radius: 50%;
+    color: var(--bg-colors);
+    background-color: var(--container-color);
+}
+.icon .bx:hover{
+background-color: var(--main-color);
+transition: 0.1s all linear;
+}
+
+/* -------- - section-2   - -    ----------------- */
+
+.section-2 .fox-2 .ddd .dog1 h1  {
+    font-size: 100px;
+    font-family: family=Lilita;
+    font-weight: 800;
+    margin-left: 65px;
+    color: rgba(253, 253, 253, 0.288) ;
+    margin-top: 100px;
+}
+
+
+.section-2 .fox-2 .row  {
+    margin-top: 250px;
+}
+
+.section-2 .fox-2 .row .col-5 h1  {
+    font-size: 45px;
+    font-family: family=Lilita; 
+    font-weight: 500;
+    color: gold;
+}
+
+.section-2 .fox-2 .row .col-5 span  {
+    color: gold;
+}
+
+
+
+
+
+.contact {
+    padding-bottom: 130px;
+  }
+  
+  .contact .info {
+    padding: 30px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    border-radius: 50px;
+  }
+  
+  .contact .info i {
+    font-size: 20px;
+    color: #286b31;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #fcf9df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #171805;
+  }
+  
+  .contact .info p {
+    padding: 0 0 10px 60px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #173b6c;
+  }
+  
+  .contact .info .email p {
+    padding-top: 5px;
+  }
+  
+  .contact .info .social-links {
+    padding-left: 60px;
+  }
+  
+  .contact .info .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+    margin-right: 10px;
+  }
+  
+  .contact .info .social-links a:hover {
+    background: gold    ;
+    color: rgba(0, 0, 0, 0.719);
+  }
+
+
+
+
+
+
+
+
+
+.contact .info .email:hover i,
+.contact .info .address:hover i,
+.contact .info .phone:hover i {
+  background: #ddbf14;
+  color: #fff;
+}
+
+.contact .php-email-form {
+  width: 100%;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.527);
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  border-radius: 50px;
+}
+
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br+br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid #18d26e;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form .form-group {
+  margin-bottom: 15px;
+}
+
+.contact .php-email-form label {
+  padding-bottom: 8px;
+}
+
+.contact .php-email-form input,
+.contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.contact .php-email-form input {
+  height: 44px;
+}
+
+.contact .php-email-form textarea {
+  padding: 10px 15px;
+}
+
+.contact .php-email-form button[type=submit] {
+  background: #149ddd;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+/* @media all and (max-width: 700px) {
+   
+    .nav-link{
+        font-size:1.2rem ;
+        padding: 4px;
+        border-radius: 0.2rem ;
+        color: var(--bg-color);
+    }
+     .nav-link:hover{
+        translate: 0.3s all linear;
+        background-color: rgba(153, 152, 148, 0);
+        color: yellow;
+    }
+    
+    .section{
+        padding: 3rem 0 2rem;
+    }
+      .section {
+       min-height: 600px;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       padding-top: 7rem;
+    }  
+    .home-content{
+        position: relative;
+        max-width: 600px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section .home-content .box .row .col-12 img {
+        width: 280px;
+        height: 300px;
+        border-radius: 50%;
+        background: #98a7fc;
+        overflow: hidden;
+        margin-bottom: 2rem;
+    }
+    .section .home-content .box .row .col-12 img {
+        width: 280px;
+        height: 280px;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    
+    .section .box .row .dog h4{
+        font-size: 25px;
+        font-family:family=Lilita ;
+        color: rgba(238, 255, 0, 0.808);
+    }
+    
+    .section .box .row .dog span{
+        font-family:family=Lilita ;
+        color: gold;
+    }
+    
+    .section .box .row .dog h1{
+        font-size: 40px;
+        font-family:family=Lilita ;
+    }
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: 0.1rem;
+    }
+    .icon .bx {
+        font-size: 1.3rem;
+        padding: 10px;
+        border-radius: 50%;
+        color: var(--bg-colors);
+        background-color: var(--container-color);
+    }
+    .icon .bx:hover{
+        background-color: var(--main-color);
+        transition: 0.1s all linear;
+    }
+
+
+    .section-2 .fox-2 .ddd .dog1 h1  {
+      font-size: 50px;
+      font-family: family=Lilita;
+      font-weight: 800;
+      margin-left: 65px;
+      color: rgba(253, 253, 253, 0.288) ;
+      margin-top: 100px;
+  }
+  
+  
+  .section-2 .fox-2 .row  {
+      margin-top: 250px;
+  }
+  
+  .section-2 .fox-2 .row .col-5 h1  {
+      font-size: 25px;
+      font-family: family=Lilita; 
+      font-weight: 500;
+      color: gold;
+      width: 50%;
+      height: 50%;
+      flex-wrap: wrap;
+  }
+  
+  .section-2 .fox-2 .row .col-5 span  {
+      color: gold;
+  }
+    
+    .section-2 .fox-2 .ddd .dog1 h1  {
+        font-size: 50px;
+        font-family: family=Lilita;
+        font-weight: 800;
+        margin-left: 35px;
+        color: rgba(253, 253, 253, 0.288) ;
+        margin-top: 90px;
+    }
+
+    .contact {
+        padding-bottom: 130px;
+      }
+      
+      .contact .info {
+        padding: 30px;
+        background: #fff;
+        width: 100%;
+        box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+        border-radius: 50px;
+      }
+      
+      .contact .info i {
+        font-size: 20px;
+        color: #286b31;
+        float: left;
+        width: 44px;
+        height: 44px;
+        background: #fcf9df;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50px;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .contact .info h4 {
+        padding: 0 0 0 60px;
+        font-size: 22px;
+        font-weight: 600;
+        margin-bottom: 5px;
+        color: #171805;
+      }
+      
+      .contact .info p {
+        padding: 0 0 10px 60px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        color: #173b6c;
+      }
+      
+      .contact .info .email p {
+        padding-top: 5px;
+      }
+      
+      .contact .info .social-links {
+        padding-left: 30px;
+      }
+      
+      .contact .info .social-links a {
+        font-size: 10px;
+        display: inline-block;
+        background: #333;
+        color: #fff;
+        line-height: 1;
+        padding: 8px 0;
+        border-radius: 50%;
+        text-align: center;
+        width: 36px;
+        height: 36px;
+        transition: 0.3s;
+        margin-right: 10px;
+      }
+      
+      .contact .info .social-links a:hover {
+        background: gold    ;
+        color: rgba(0, 0, 0, 0.719);
+      }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .contact .info .email:hover i,
+    .contact .info .address:hover i,
+    .contact .info .phone:hover i {
+      background: #ddbf14;
+      color: #fff;
+    }
+    
+    .contact .php-email-form {
+      width: 100%;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.527);
+      box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+      border-radius: 50px;
+    }
+    
+    .contact .php-email-form .form-group {
+      padding-bottom: 8px;
+    }
+    
+    .contact .php-email-form .validate {
+      display: none;
+      color: red;
+      margin: 0 0 15px 0;
+      font-weight: 400;
+      font-size: 13px;
+    }
+    
+    .contact .php-email-form .error-message {
+      display: none;
+      color: #fff;
+      background: #ed3c0d;
+      text-align: left;
+      padding: 15px;
+      font-weight: 600;
+    }
+    
+    .contact .php-email-form .error-message br+br {
+      margin-top: 25px;
+    }
+    
+    .contact .php-email-form .sent-message {
+      display: none;
+      color: #fff;
+      background: #18d26e;
+      text-align: center;
+      padding: 15px;
+      font-weight: 600;
+    }
+    
+    .contact .php-email-form .loading {
+      display: none;
+      background: #fff;
+      text-align: center;
+      padding: 15px;
+    }
+    
+    .contact .php-email-form .loading:before {
+      content: "";
+      display: inline-block;
+      border-radius: 50%;
+      width: 24px;
+      height: 24px;
+      margin: 0 10px -6px 0;
+      border: 3px solid #18d26e;
+      border-top-color: #eee;
+      -webkit-animation: animate-loading 1s linear infinite;
+      animation: animate-loading 1s linear infinite;
+    }
+    
+    .contact .php-email-form .form-group {
+      margin-bottom: 15px;
+    }
+    
+    .contact .php-email-form label {
+      padding-bottom: 8px;
+    }
+    
+    .contact .php-email-form input,
+    .contact .php-email-form textarea {
+      border-radius: 0;
+      box-shadow: none;
+      font-size: 14px;
+    }
+    
+    .contact .php-email-form input {
+      height: 44px;
+    }
+    
+    .contact .php-email-form textarea {
+      padding: 10px 15px;
+    }
+    
+    .contact .php-email-form button[type=submit] {
+      background: #149ddd;
+      border: 0;
+      padding: 10px 24px;
+      color: #fff;
+      transition: 0.4s;
+      border-radius: 4px;
+    }
+    
+
+} */
